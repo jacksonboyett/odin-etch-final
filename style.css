@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: TronFont;
+    src: url('Tr2n.ttf');
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 100px;
+}
+
+h1 {
+    font-family: TronFont;
+    color:rgb(159, 233, 255)
+}
+
+.objectMain {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(159, 233, 255);
+    height: 650px;
+    width: 800px;
+    background-color: black;
+    border-radius: 16pt;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 500px;
+    width: 800px;
+    border-radius: 16pt;
+    padding: 8px;
+}
+
+.controlPanel {
+    display: flex; 
+    flex: 1;
+    border-top: 6px solid rgb(159, 233, 255);
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.leftControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.reset {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(159, 233, 255);
+    border-radius: 8px;
+}
+
+.centerControl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.tron {
+    height: auto;
+    width: 60%;
+    margin: 0px;
+    border: 0px;
+}
+
+.rightControl {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.orange {
+    height: 30px;
+    width: 80px;
+    margin: 0; 
+    padding: 0;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.blue {
+    height: 30px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+.lightMode {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(159, 233, 255);
+    border-radius: 8px;
+}
+
+.row {
+    display: flex;
+    width: 800px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.square {
+    display: flex;
+    box-sizing: border-box;
+    flex: auto; 
+    justify-content: center;
+    align-items: center;
+};
